@@ -1,0 +1,85 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.label {
+    font-size: 13px;
+    text-anchor: middle;
+}
+.tick text {
+    font-size: 8px;
+    letter-spacing: -1;
+}
+.label {
+    font-size: 10px;
+}
+
+.y-legend-label {
+    color: #9B9B9B;
+    font-family: "Futura PT";
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right
+}
+
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font: 12px sans-serif;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.axis-label {
+    color: #2D2D2D;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Futura PT";
+    font-weight: 300;
+}
+
+.line-style {
+    border: 2px solid #003C6A;
+    stroke: black;
+    stroke-width: 1px;
+    stroke-dasharray: 2px;
+}
+
+.legend-style {
+    color: #2D2D2D;
+    font-size: 14px;
+    text-anchor: start;
+    font-family: "Futura PT";
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.pie {
+    margin: 20px;
+  }
+
+  .pie text {
+    font-family: "Verdana";
+    fill: #888;
+  }
+
+  .pie .name-text {
+    font-size: 1em;
+  }
+
+  .pie .value-text {
+    font-size: 14px;
+  }
+
+  /* #sac01{
+      margin-top: 200px;
+  } */
